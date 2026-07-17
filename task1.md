@@ -60,3 +60,18 @@ if hallway[agent_loc] == 1:
 plt.ioff()
 plt.show()
 ```
+
+
+### changes for 3rd task:
+```python
+length = 5  
+agent_loc = 0
+hallway = [1, 0, 2, 0, 1] 
+
+plt.ion() 
+fig, ax = plt.subplots(figsize=(8, 2)) 
+```
+
+```python
+while agent_loc < length - 1 and hallway[agent_loc + 1] != 2:
+```
